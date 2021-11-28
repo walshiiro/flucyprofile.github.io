@@ -27,13 +27,13 @@ h1
 }
 .background-img
 {
-	background-image:url(img/background3.png) ;
+	background-image:url(img/p2.png) ;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 100%;
-	filter: blur(5px);
+	
 	
 
 
