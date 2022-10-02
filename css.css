@@ -27,7 +27,7 @@ h1
 }
 .background-img
 {
-	background-image:url(img/wallp.jpg) ;
+	background-image:url(img/wallp.png) ;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
