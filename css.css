@@ -69,3 +69,19 @@ a
 a:hover { color:  #ccffcc; }
 h4:hover{ color:  #ccffcc
 ; }
+
+section{
+  display: grid;
+  place-items: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.hidden 
+{
+  opacity: 0;
+  transition: all 2s;
+}
+.show
+{
+  opacity: 1;
+}
