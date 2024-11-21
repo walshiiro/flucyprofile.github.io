@@ -28,11 +28,11 @@ h1
 .background-img
 {
 	background-image:url(img/wallpaper3.jpg) ;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 100%;
+	width: 100vw; 
+  height: 100vh; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 	
 	
 
