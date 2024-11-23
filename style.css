@@ -1,0 +1,155 @@
+*{
+
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body,html{
+	height: 130%;
+ 
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	place-items: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+
+	
+}
+.background
+{
+    background-image: url(img/bg.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(5px);
+    width: 99vw;
+    height: 100vh;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    min-height: 100%;
+
+}
+
+.infoBox
+{
+    border-radius: 5%;
+    background-color: #f2e9d8;
+    
+    color: #505253;
+    padding: 20px;
+    position: absolute;
+    margin: auto;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.infoBox__name
+{
+    font-size: 200%;
+
+    margin: 5px;
+
+}
+.infoBox__img
+{
+    border-radius: 10%;
+    
+    height: 150px;
+    width: 150px;
+ display: absolute;
+ justify-content: center;
+ align-items: center;
+}
+.infoBox__msg
+{
+    text-align: center;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.infoBox__btn 
+{
+    padding-top: 10px;
+    align-items: center;
+    display: absolute;
+    justify-content: center;
+}
+.btn__aboutme
+{
+    display: inline-flex;
+    position: relative;
+    text-decoration: none;
+    background-color: #d5bb96;
+    border: none;
+    color:#43271d;
+    font-weight: 100;
+    padding: 12px 12px;
+    margin: 10px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    align-content: center;
+    transition: opacity 0.5s ease;
+    
+
+
+}
+
+.btn__aboutme:hover
+{
+    opacity: 0.6;
+}
+
+.aboutmeBox
+{
+    border-radius: 5%;
+    background-color: #f2e9d8;
+    
+    color: #505253;
+    padding: 20px;
+    position: absolute;
+    width: 500px;
+    margin: auto;
+    left: 20%;
+    top: 120%;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.socialLinkBox
+{
+    border-radius: 5%;
+    background-color: #f2e9d8;
+    
+    color: #505253;
+    padding: 20px;
+    position: absolute;
+    width: 500px;
+    margin: auto;
+    left: 80%;
+    top: 120%;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.icon {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   }
+.socialLinkBox__icon
+{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    
+    color: #d5bb96;
+    transition: opacity 0.5s ease;
+}
+.socialLinkBox__icon:hover{
+    opacity: 0.7;
+}
