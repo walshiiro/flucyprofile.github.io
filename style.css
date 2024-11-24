@@ -22,6 +22,8 @@ body,html{
     width: 99vw;
     height: 100vh;
     opacity: 0.9;
+      background-size: cover;
+
     background-attachment: fixed;
     background-position: center; 
     background-repeat: no-repeat;
@@ -33,7 +35,6 @@ body,html{
 {
     border-radius: 5%;
     background-color: #f2e9d8;
-    
     color: #505253;
     padding: 20px;
     position: absolute;
@@ -100,6 +101,10 @@ body,html{
 {
     opacity: 0.6;
 }
+.aboutmeBox + .socialLinkBox
+{
+    margin-left: 5px;
+}
 
 .aboutmeBox
 {
@@ -110,8 +115,9 @@ body,html{
     padding: 20px;
     position: absolute;
     width: 500px;
+    height: 372px;
     margin: auto;
-    left: 20%;
+    left: 25%;
     top: 120%;
 
     transform: translate(-50%, -50%);
@@ -127,8 +133,9 @@ body,html{
     padding: 20px;
     position: absolute;
     width: 500px;
+    height: 372px;
     margin: auto;
-    left: 80%;
+    left: 75%;
     top: 120%;
 
     transform: translate(-50%, -50%);
